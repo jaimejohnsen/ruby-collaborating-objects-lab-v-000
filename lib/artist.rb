@@ -32,8 +32,6 @@ class Artist #class is the blueprint from which objects are created
     self.find_by_name(name) || self.create_by_name(name) #Find the artist instance that has that name or create one if it doesn't exist
   end #returns an instance of an artist with the name attribute
 
-  #binding.pry
-#puts "goodbye"
 end
 
 
