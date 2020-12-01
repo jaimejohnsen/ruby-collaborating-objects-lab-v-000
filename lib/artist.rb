@@ -35,7 +35,7 @@ class Artist #class is the blueprint from which objects are created
   def print_songs
 
   end
-  
+
 end
 
 
