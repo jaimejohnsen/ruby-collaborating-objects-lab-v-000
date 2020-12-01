@@ -28,7 +28,7 @@ class Artist #class is the blueprint from which objects are created
     self
   end
 
-  def self.find_or_create_by_name(name) #passes in the artist name a sring parsed from the db file
+  def self.find_or_create_by_name(name) #passes in the artist name a string parsed from the db file
     self.find_by_name(name) || self.create_by_name(name) #Find the artist instance that has that name or create one if it doesn't exist
   end #returns an instance of an artist with the name attribute
 
