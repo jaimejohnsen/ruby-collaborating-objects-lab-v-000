@@ -33,7 +33,7 @@ class Artist #class is the blueprint from which objects are created
   end #returns an instance of an artist with the name attribute
 
   def print_songs
-    print @@all
+
   end
 
 end
